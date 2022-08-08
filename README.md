@@ -1,8 +1,20 @@
-# ProyectoDemo
+# ProyectoDemoApis
 
-#### Para poder ejectuar este proyecto se debe de tener instalado python y Dango, ademas es requerido instalar ciertas librerias y paquetes que son necesarios para el correcto funcionamiento del proyecto. A continuación se listan los comandos para instalar dichas librerias y paquetes:
+# Para ver este proyecto en funcionamiento visitar este link 
 
-pip install -r requirements.txt
+#### Para poder ejectuar este proyecto se debe de tener instalado python, ademas es requerido instalar ciertas librerias y paquetes que son necesarios para el correcto funcionamiento del proyecto. A continuación se listan los comandos para instalar dichas librerias y paquetes. Adicionalmente se debe de tener un entorno virtual:
+
+# Entorno virtual windows: 
+* python -m venv env
+* .\env\Scripts\activate
+
+# Entorno virtual MacOS:
+* python3 -m venv env
+* source env/bin/activate
+
+# Instalaciones de paquetes:
+* pip install -r requirements.txt
+
 
 ##### Como nota importante, en el archivo settings donde se configura la base de datos, se deben de poner los datos correspondientes a sus credenciales y el nombre del servidor local que tengan en su PC.
 
